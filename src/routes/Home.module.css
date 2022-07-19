@@ -20,6 +20,24 @@
   font-weight: 300;
 }
 
+.search {
+  width: 80%;
+  margin: auto;  /* inner div 가운데 정렬 */
+  padding-top: 70px;
+  display: flex;
+}
+
+.search__input {
+  width: 50%;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.search__btn {
+  width: 50%;
+  text-align: center;
+}
+
 .movies {
   /* display: grid;
   grid-template-columns: repeat(2, minmax(400px, 1fr)); */

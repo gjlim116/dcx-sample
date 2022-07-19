@@ -33,6 +33,10 @@ function Home() {
             <h3 className={styles.title}>main title</h3>
             <p className={styles.title}>sub title</p>
           </div>
+          <div className={styles.search}>
+            <input className={styles.search__input} value={'aa'}></input>
+            <button className={styles.search__btn}>test</button>
+          </div>
           <div className={styles.movies}>
             {movies.map((movie, index) => (
                 <Link to={`/detail/${movie.id}`} key={movie.id} className={styles.movie}>
