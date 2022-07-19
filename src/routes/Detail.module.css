@@ -1,0 +1,117 @@
+.container {
+  height: 100%;
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+}
+
+.back__img {
+  max-width: 50px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+}
+
+.movies {
+  /* display: grid;
+  grid-template-columns: repeat(2, minmax(400px, 1fr)); */
+  /* grid-gap: 100px; */
+  /* padding: 50px; */
+  width: 90%;
+  margin: auto;  /* inner div 가운데 정렬 */
+  padding-top: 70px;
+  
+}
+
+.movie {
+  /* margin-bottom: 70px; */
+  /* font-weight: 300; */
+  padding: 20px;
+  /* border-radius: 5px; */
+  color: black;
+  /* display: grid;
+  grid-template-columns: minmax(150px, 1fr) 3fr;
+  grid-gap: 10px; */
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+  /* height: 50px;
+  vertical-align: middle; */
+  align-items: center;
+}
+
+/* .movie__index {
+  width: 3%;
+  margin-right: 30px;
+} */
+
+.movie__img_div {
+  width: 90%;
+  max-width: 200px;
+  padding-top: 70px;
+  margin: auto;  /* inner div 가운데 정렬 */
+}
+
+.movie__img {
+  max-width: 200px;
+}
+
+.details {
+  /* display: grid;
+  grid-template-columns: repeat(2, minmax(400px, 1fr)); */
+  /* grid-gap: 100px; */
+  /* padding: 50px; */
+  width: 70%;
+  margin: auto;  /* inner div 가운데 정렬 */
+  padding-top: 10px;
+}
+
+.detail__info {
+  /* margin-bottom: 70px; */
+  /* font-weight: 300; */
+  padding: 5px;
+  /* border-radius: 5px; */
+  /* color: black; */
+  /* display: grid;
+  grid-template-columns: minmax(150px, 1fr) 3fr;
+  grid-gap: 10px; */
+  display: flex;
+  /* cursor: pointer; */
+  text-decoration: none;
+  /* height: 50px;
+  vertical-align: middle; */
+  align-items: center;
+}
+
+.movie__category {
+  width: 50%;
+  text-align: right;
+  margin-right: 30px;
+  font-weight: bold;
+  align-self: baseline;
+}
+
+.movie__info {
+  width: 50%;
+  text-align: left;
+  /* margin-right: 30px; */
+}
+
+/* @media screen and (max-width: 1090px) {
+  .movies {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+} */
